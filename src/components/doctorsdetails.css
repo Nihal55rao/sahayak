@@ -1,0 +1,78 @@
+:root {
+    --PrimaryColor:hsl(199,100%,33%);
+    --SecondaryColor:hsl(187,85%,43%);
+    --gradientColor:linear-gradient(to right,hsl(187,85%,43%),hsl(199,100%,33%));
+    --whiteColor:hsl(0,0%,100%);
+    --blackColor:hsl(201,33%,16%);
+    --textColor:hsl(240,4%,36%);
+    --whiteColorDeam:hsl(0,0%,93%);
+    --greyText: rgb(190,190,190);
+    --inputColor:rgb(239,239,239);
+    --bodyColor:rgb(240,240,246);
+    --cardBG:rgb(225,225,235);
+  }
+
+ .home {
+    margin-top: 10rem;
+    position: relative;
+    background: lightgray;
+    width: 50%;
+    border-radius: 2rem;
+    align-items: center;
+    left: 25%;
+
+  }
+
+.home.cardDiv{
+    position: relative;
+    padding-left: 2rem;
+    padding: 2rem 1rem;
+    background: lightgray;
+    border-radius: 10px;
+    gap: 1rem;
+  }
+
+.h1{
+    padding-bottom: 1rem;
+    color: rgb(48, 132, 159);
+    font-weight: 600;
+  }
+
+  .label {
+    padding-left: 5rem;
+    display: block;
+    color: var(--PrimaryColor);
+    padding-bottom: 10px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  
+  .input{
+    border-radius: 2rem;
+  }
+
+  .input input{
+    border-radius: 2rem;
+    padding-left: 1rem;
+
+  }
+
+  .btn {
+    margin-top: 1rem;
+  }
+
+  .bookButton {
+    background-color: rgb(77, 187, 224);
+    padding-left:0.8rem;
+    padding-right:0.8rem;
+    padding-bottom:0.5rem;
+    border-radius: 2rem;
+  }
+
+  .bookButton span{
+    padding-top: 0.8rem;
+  }
+
+  .bookButton:hover{
+    background-color: lightblue;
+  }

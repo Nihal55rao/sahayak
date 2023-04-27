@@ -1,0 +1,101 @@
+
+.profiles h1{
+    padding-top: 2rem ;
+    font-weight: 600;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    color: rgb(46, 122, 139);
+}
+
+.profiles h2{
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    color: rgb(24, 71, 165);
+}
+
+.grid p{
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: #f7f9fb;
+    
+}
+
+.contact-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+}
+
+.grid{
+    max-width: 125rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding-bottom: 4rem;
+}
+
+.card {
+    padding: 1em;
+    border: 1px solid #888;
+
+}
+.btn{
+    text-decoration: none;
+   
+    color: navy;
+    white-space: nowrap;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 0.1rem;
+    cursor: pointer;
+    background-color: rgb(165, 204, 228);
+    margin-bottom: 1rem;
+}
+
+.btn:hover {
+    background-color: rgb(87, 177, 188);
+    color: #fff;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 850px){
+
+    .grid{
+        max-width: 120rem;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.6rem;
+        padding-bottom: 4rem;
+    }
+    
+    .card {
+        padding: 2em;
+        border: 1px solid #888;
+    
+    }
+    .btn{
+        text-decoration: none;
+        
+        color: navy;
+        white-space: nowrap;
+        border-radius: 2rem;
+        font-size: 1rem;
+        font-weight: 600;
+        border: 0.1rem;
+        cursor: pointer;
+        background-color: rgb(165, 204, 228);
+        margin-bottom: 1rem;
+    }
+    
+    .btn:hover {
+        background-color: rgb(87, 177, 188);
+        color: #fff;
+        border-radius: 4px;
+        transition: all 0.2s ease-in-out;
+    }
+
+}

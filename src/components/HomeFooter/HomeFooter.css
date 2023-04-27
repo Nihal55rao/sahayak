@@ -1,0 +1,36 @@
+
+.footer{
+    padding-top: 2rem;
+    color: rgb(250, 252, 253);
+    
+}
+.footer h1{
+    padding-top: 2rem;
+    font-weight: 600;
+    font-size: 3rem;
+    
+}
+
+.footer h2{
+    padding-top: 2rem;
+    font-weight: 500;
+    font-size: 2rem;
+    
+}
+.footer h3{
+    padding-top: 2rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    
+}
+
+.footer p{
+    padding-top: 2rem;
+    color: black;
+    padding-bottom: 4rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
